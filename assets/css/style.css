@@ -1,0 +1,317 @@
+/*
+Theme Name: SunshineResortPune.com
+Author: Amol Baikar
+Description: Sunshine Resort Official Website
+Version: 1.0
+Tags: OfficialWebsite, Sunshine Resort
+*/
+.textlogo {
+	background: linear-gradient(180deg, #677b8c, #191919);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.nav-menus {
+	color: #303030;
+    font-weight: 450;
+    font-size: 18px;
+	background: #000000;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.nav-menus:hover {
+	background: linear-gradient(45deg, #BA00B4, #1D0AC9);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.expand{
+  position:relative;
+  text-decoration:none;
+  display:inline-block;
+}
+.expand:after {
+  display:block;
+  content: '';
+  border-bottom: solid 3px #7928ca;
+  transform: scaleX(0);
+  transition: transform 250ms ease-in-out;
+  transform-origin:100% 50%
+}
+.expand:hover:after { 
+  transform: scaleX(1);
+  transform-origin:0 50%;
+}
+
+.footer-menus {
+	text-decoration: none;
+    color: #6c757d;
+}
+
+.footer-menus:hover {
+	background: linear-gradient(45deg, #BA00B4, #1D0AC9);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.page_style {
+	background-image:linear-gradient(135deg,#1da1f2,#981ceb);
+	background-color: #1b95e0;
+}
+
+.txtgrd {
+	background: linear-gradient(45deg, #BA00B4, #1D0AC9);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.txtgrd:hover {
+	background: linear-gradient(310deg,#7928ca,#ff0080);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.theme-btn{
+	display:inline-block;
+	text-align: center;
+	white-space: nowrap;
+	-webkit-transition:all 0.3s ease;
+	-moz-transition:all 0.3s ease;
+	-ms-transition:all 0.3s ease;
+	-o-transition:all 0.3s ease;
+	transition:all 0.3s ease;
+}
+
+/*Btn Style two*/
+
+.btn-style-one{
+	position:relative;
+	font-size:14px;
+	color:#ffffff;
+	background: linear-gradient(310deg,#7928ca,#ff0080);
+	border: none;
+	padding: 14px 36px;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-decoration:none;
+	overflow: hidden;
+}
+
+.btn-style-one:hover{
+	color:#ffffff;
+	background: linear-gradient(135deg, #FFD9D9, #FB65F7);
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+}
+
+
+.feature-box {
+	position: relative;
+	margin-bottom: 30px;
+	z-index: 5
+}
+
+.feature-box .inner-box {
+	position: relative;
+	display: block;
+	text-align: center;
+	padding: 60px 30px 35px;
+	background: #fff;
+	box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, .1)
+}
+
+.feature-box .icon-box {
+	position: relative;
+	display: inline-block;
+	font-size: 50px;
+	height: 80px;
+	line-height: 80px;
+	width: 116px;
+	margin-bottom: 28px
+}
+
+.feature-box .icon-box .circle {
+	position: absolute;
+	left: 0;
+	right: 0;
+	height: 100%
+}
+
+.feature-box .icon-box .circle:before {
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom: -10px;
+	width: 50px;
+	height: 50px;
+	background: #edf0f5;
+	opacity: .5;
+	border-radius: 50%
+}
+
+.feature-box .icon-box .circle:after {
+	content: '';
+	position: absolute;
+	right: 0;
+	top: -10px;
+	width: 80px;
+	height: 80px;
+	background: #edf0f5;
+	opacity: .5;
+	border-radius: 50%
+}
+
+.feature-box h4 {
+	text-transform: capitalize;
+	margin-bottom: 25px
+}
+
+.feature-box .text {
+	position: relative;
+	display: block;
+	color: #555;
+	font-size: 16px;
+	line-height: 1.7em
+}
+
+.social-fb {
+	color: #1877f2;
+}
+.social-fb:hover {
+	color: #1877f2;
+}
+
+.social-ig {
+	background: linear-gradient(310deg,#7928ca,#ff0080);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.social-ig:hover {
+	color: #1877f2;
+}
+
+/* about feature*/
+.about-section-two{
+  position: relative;
+  padding: 60px 0 80px;
+}
+
+.about-section-two .content-column{
+	position: relative;
+	margin-bottom: 40px;
+}
+
+.about-section-two .content-column .inner-column{
+	position: relative;
+	margin-left: -28px;
+}
+
+.about-section-two .content-column .sec-title h2{
+	line-height: 62px;
+}
+
+.about-section-two .content-column .float-text{
+	margin-left: -90px;
+	margin-bottom: -50px;
+}
+
+
+.about-section-two .content-column .image{
+	position: relative;
+	margin-left: -216px;
+	margin-bottom: 0;
+	z-index: 2;
+}
+
+.about-section-two .images-column{
+	position: relative;
+}
+
+.about-section-two .images-column .image-2{
+	position: relative;
+	margin-left: -20px;
+	padding-right: 90px;
+	margin-bottom: 60px;
+}
+
+.about-section-two .images-column .image-2 img{
+	width: 100%;
+}
+
+.about-section-two .images-column .image-3{
+	position: relative;
+	margin-right: -60px;
+	padding-left: 150px;
+	width: auto;
+	z-index: 9;
+	margin-bottom: 0;
+}
+
+.about-section-two .images-column:before{
+	position: absolute;
+	left: 20px;
+	bottom: 2px;
+	background-image: url(../img/main_pattern.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 564px;
+	width: 564px;
+	content: "";
+}
+
+
+.sec-title{
+	position:relative;
+	margin-bottom:50px;
+}
+
+.sec-title .float-text {
+    display: block;
+    margin-bottom: -40px;
+    white-space: nowrap;
+    font-size: 120px;
+    line-height: 90px;
+    color: #484848;
+    font-weight: 900;
+    opacity: .05;
+    text-transform: uppercase;
+    font-family: 'Playfair Display', sans-serif;
+}
+
+.sec-title h2{
+	position: relative;
+	display: block;
+    font-size: 48px;
+    line-height: 62px;
+    color: #1b212f;
+    font-weight: 700;
+    transition: all 100ms linear;
+}
+
+.sec-title p,
+.sec-title .text{
+	position: relative;
+    font-size: 18px;
+    line-height: 28px;
+    color: #707070;
+	font-weight: 400;
+    margin-top: 20px;
+}
+
+.auto-container{
+	position:static;
+	max-width:1200px;
+	padding:0px 15px;
+	margin:0 auto;
+}
+
+.rooms-section-two:before, .about-section-two .images-column:before {
+    animation: fa-spin 60s linear infinite;
+}
+
+/* end about feature*/
