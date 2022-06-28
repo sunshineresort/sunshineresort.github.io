@@ -95,16 +95,16 @@
 			<!-- Check Availability -->
             <div style="background-image: linear-gradient(135deg, #C4FFC4, #79D9FC);">
                 <div class="container">
-                    <form class="p-5">
+                    <form class="p-5" action="https://wa.me/919158880099?text=Hi%2C%0AI%20would%20like%20to%20make%20reservation%20in%20Sunshine%20Resort" method="get">
                         <div class="row g-3 p-3">
                             <div class="col-sm">
-								<input type="text" onfocus="(this.type='date')" class="form-control border-primary" id="Arrival" name="Arrival Date" placeholder="Arrival Date">
+								<input type="text" onfocus="(this.type='date')" class="form-control border-primary" id="check_in" name="check_in" placeholder="Arrival Date">
                             </div>
                             <div class="col-sm">
-								<input type="text" onfocus="(this.type='date')" class="form-control border-primary" id="Departure" name="Departure Date" placeholder="Departure Date">
+								<input type="text" onfocus="(this.type='date')" class="form-control border-primary" id="check_out" name="check_out" placeholder="Departure Date">
                             </div>
                             <div class="col-sm">
-								<select class="form-select border-primary" aria-label="Adults" placeholder="Adults">
+								<select class="form-select border-primary" name="adults" aria-label="Adults" placeholder="Adults">
 									<option selected>Adults</option>
 									<option value="1">1</option>
 									<option value="2">2</option>
@@ -114,7 +114,7 @@
 								</select>
                             </div>
                             <div class="col-sm">
-								<select class="form-select border-primary" aria-label="Children" placeholder="Children">
+								<select class="form-select border-primary" name="children" aria-label="Children" placeholder="Children">
 									<option selected>Children</option>
 									<option value="1">1</option>
 									<option value="2">2</option>
