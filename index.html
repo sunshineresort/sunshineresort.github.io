@@ -7,6 +7,15 @@
         <link rel="stylesheet" href="assets/css/responsive.css">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <script src="https://kit.fontawesome.com/5c70285029.js" crossorigin="anonymous"></script>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z4SCTJLJHB"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+                  gtag('js', new Date());
+
+              gtag('config', 'G-Z4SCTJLJHB');
+        </script>
         <title>Sunshine Resort Pune</title>
     </head>
     <body>
@@ -98,14 +107,14 @@
                     <form class="p-5" action="https://www.airbnb.co.in/rooms/582845955917758081" method="get">
                         <div class="row g-3 p-3">
                             <div class="col-sm">
-								<input type="text" onfocus="(this.type='date')" class="form-control border-primary" id="check_in" name="check_in" placeholder="Arrival Date">
+								<input type="date" onfocus="(this.type='date')" class="form-control border-primary" id="check_in" name="check_in" placeholder="Arrival Date">
                             </div>
                             <div class="col-sm">
-								<input type="text" onfocus="(this.type='date')" class="form-control border-primary" id="check_out" name="check_out" placeholder="Departure Date">
+								<input type="date" onfocus="(this.type='date')" class="form-control border-primary" id="check_out" name="check_out" placeholder="Departure Date">
                             </div>
                             <div class="col-sm">
 								<select class="form-select border-primary" name="adults" aria-label="Adults" placeholder="Adults">
-									<option selected>Adults</option>
+									<option value="0">0</option>
 									<option value="1">1</option>
 									<option value="2">2</option>
 									<option value="3">3</option>
@@ -115,7 +124,7 @@
                             </div>
                             <div class="col-sm">
 								<select class="form-select border-primary" name="children" aria-label="Children" placeholder="Children">
-									<option selected>Children</option>
+									<option selected>0</option>
 									<option value="1">1</option>
 									<option value="2">2</option>
 									<option value="3">3</option>
