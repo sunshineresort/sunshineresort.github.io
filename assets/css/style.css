@@ -177,14 +177,12 @@ Tags: OfficialWebsite, Sunshine Resort
 	font-size: 16px;
 	line-height: 1.7em
 }
-
 .social-fb {
 	color: #1877f2;
 }
 .social-fb:hover {
 	color: #1877f2;
 }
-
 .social-ig {
 	background: linear-gradient(310deg,#7928ca,#ff0080);
 	-webkit-background-clip: text;
@@ -192,6 +190,12 @@ Tags: OfficialWebsite, Sunshine Resort
 }
 .social-ig:hover {
 	color: #1877f2;
+}
+.social-wa {
+	color: #34B7F1;
+}
+.social-wa:hover {
+	color: #34B7F1;
 }
 
 /* about feature*/
