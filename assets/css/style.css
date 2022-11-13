@@ -5,7 +5,7 @@ Description: Sunshine Resort Official Website
 Version: 1.0
 Tags: OfficialWebsite, Sunshine Resort
 */
-.textlogo {
+.text-logo {
 	background: linear-gradient(180deg, #677b8c, #191919);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
@@ -89,7 +89,7 @@ Tags: OfficialWebsite, Sunshine Resort
 	position:relative;
 	font-size:14px;
 	color:#ffffff;
-	background: linear-gradient(310deg,#7928ca,#ff0080);
+	background: linear-gradient(310deg,#b3331a,#f2692e);
 	border: none;
 	padding: 14px 36px;
 	font-weight: 700;
