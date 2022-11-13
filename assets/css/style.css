@@ -89,7 +89,7 @@ Tags: OfficialWebsite, Sunshine Resort
 	position:relative;
 	font-size:14px;
 	color:#ffffff;
-	background: linear-gradient(310deg,#b3331a,#f2692e);
+	background: linear-gradient(120deg,#b3331a,#f2692e);
 	border: none;
 	padding: 14px 36px;
 	font-weight: 700;
@@ -100,7 +100,7 @@ Tags: OfficialWebsite, Sunshine Resort
 
 .btn-style-one:hover{
 	color:#fff;
-	background: linear-gradient(135deg, #FFD9D9, #0997a8);
+	background: linear-gradient(145deg, #FFD9D9, #0997a8);
 }
 
 .flex-center {
